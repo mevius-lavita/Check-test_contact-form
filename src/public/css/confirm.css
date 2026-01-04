@@ -1,0 +1,52 @@
+table,
+th,
+td {
+    border: solid 1px #efeeee;
+}
+th,td{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+table{
+    margin: 0 auto;
+    text-align: left;
+}
+th{
+    padding-left: 60px;
+    padding-right: 80px;
+    background-color: #9c8d80;
+    color: white;
+}
+td{
+    padding-left: 60px;
+    padding-right: 300px;
+}
+.form {
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+tr {
+    line-height: 2.5;
+}
+input{
+    border: none;
+}
+.contact-form__button-submit{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.contact-form__button-submit__post{
+    background-color: #9c8d80;
+    padding: 10px 40px;
+    border-radius: 2px;
+    color:white;
+    border: none;
+}
+.contact-form__button-submit__reset{
+    padding: 10px 40px;
+
+}

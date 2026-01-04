@@ -1,0 +1,182 @@
+.header__logo {
+    padding-left: 90px;
+}
+.header-nav__button{
+    background-color: #f6f6f6;
+    border: 1px solid #e9e1d7;
+    text-decoration: none;
+    padding: 2px 10px;
+}
+.form{
+    float: right;
+}
+
+.search__form{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.keyword{
+    width: 300px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #f4f4f4;
+}
+input,select{
+    border: none;
+    background-color: #f4f4f4;
+    appearance: none;
+}
+.delta-icon__gender,.delta-icon__category_id,.delta-icon__date{
+    position: relative;
+}
+.delta-icon__gender select{
+    padding: 10px 20px;
+}
+.delta-icon__gender::after {
+    content: "";
+    position: absolute;
+    top: 18px;
+    right: 8px;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    border-top: 12px solid #e0dfde;
+    border-bottom: 0;
+    pointer-events: none;
+}
+.delta-icon__category_id select{
+    padding: 10px;
+}
+.delta-icon__category_id::after{
+    content: "";
+    position: absolute;
+    top: 18px;
+    right: 8px;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    border-top: 12px solid #e0dfde;
+    border-bottom: 0;
+    pointer-events: none;
+}
+.delta-icon__date{
+    width: 150px;
+}
+.delta-icon__date input{
+    width: 100%;
+    padding: 9px 10px;
+}
+.delta-icon__date input::-webkit-calendar-picker-indicator{
+    opacity: 0;
+}
+.delta-icon__date::after {
+    content: "";
+    position: absolute;
+    top: 18px;
+    right: 8px;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    border-top: 12px solid #e0dfde;
+    border-bottom: 0;
+    pointer-events: none;
+}
+.search-form__button{
+    background-color: #82756a;
+    color: white;
+    padding: 5px 20px;
+}
+.search-form__reset{
+    margin-top: 12px;
+}
+.search-form__reset a{
+    color: white;
+    background-color: #d9c6b5;
+    padding: 11px 11px;
+}
+.search__form input,.search__form select,
+.search__form button,.search__form a{
+    border: 2px solid #ecebeb;
+}
+.main-content{
+    margin: 0 auto;
+    width: 85%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+tr{
+    border:2px solid #ecebeb;
+}
+.content__title{
+    background-color: #9c8d80;
+}
+.content__title th{
+    color: white;
+}
+.main-content{
+    margin-left: 91px;
+}
+.main-content tr:hover{
+    background-color:#d9c6b5;
+}
+td,
+th {
+    line-height: 1.5;
+    padding: 10px 40px;
+}
+.main-content button{
+    padding: 5px 10px;
+    color: #d9c6b5;
+    background-color: white;
+    border: 1px solid #d9c6b5;
+}
+svg.w-5.h-5 {
+     width: 30px;
+     height: 30px;
+}
+.export__paginate{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+.export a{
+    margin-right: 420px;
+    background-color: #edeae6;
+    color: #9c8d80;
+    padding: 5px 20px;
+    border: none;
+    
+}
+a,li,.page-link,.page-item.active{
+    color: #9c8d80;
+}
+a,li,.page-link:hover,.page-item.active{
+    color:#9c8d80;
+}
+
+.page-item.active,.page-item.active .page-link{
+    background-color: #9c8d80;
+    border-color: #9c8d80;
+}
+.modal-content{
+    padding: 50px;
+}
+.modal-dialog {
+    max-width: 750px !important;
+}
+.modal-header,.modal__content,.modal-inner,.modal-ttl,.modal-data{
+    border: none;
+}
+.btn-close{
+    border: #82756a solid 1px;
+    border-radius: 50px;
+}
+.delete-form{
+    text-align: center;
+    padding-top: 50px;
+}
+.delete-btn{
+    background-color: red !important;
+    color: white !important;
+}

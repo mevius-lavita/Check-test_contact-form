@@ -1,0 +1,37 @@
+.thanks__content {
+    text-align: center;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-size: 220px;
+    color: #f9f8f8;
+    position: relative;
+    width: 100%;
+}
+
+.main_content {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.thanks__content h2 {
+    color: #9c8d80;
+    font-size: 25px;
+}
+
+.home_link {
+    background-color: #9c8d80;
+    padding: 5px 30px;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

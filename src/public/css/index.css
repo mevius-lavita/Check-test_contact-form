@@ -1,0 +1,83 @@
+.contact_table{
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+    display: inline-block;
+    padding-left: 250px;
+}
+.contact_table th,
+.contact_table td {
+   line-height: 3.5em;
+   padding-right: 50px;
+   font-family: 'Noto Sans JP', sans-serif;
+}
+#name{
+    width: 250px;
+    margin-right: 50px;
+}
+label{
+    margin-right: 60px;
+}
+#email,#address,#building{
+    width: 550px;
+}
+#tel{
+    width: 150px;
+}
+.form__label--required{
+    color:red
+}
+.category_id{
+    width: 275px;
+}
+.tel__icon{
+    margin: 0px 25px;
+}
+input,select{
+    background-color: #f4f4f4;
+    border: none;
+    padding: 10px;
+    padding-left: 15px;
+}
+select{
+    color: #cbc5bf;
+    appearance: none;
+}
+.select__content{
+    width: 275px;
+    position: relative;
+}
+.select__content::after {
+    content: "";
+    position: absolute;
+    top: 22px;
+    right: 12px;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    border-top: 12px solid  #9c8d80;
+    border-bottom: 0;
+    pointer-events: none;
+}
+.contact__detail{
+    text-decoration: none;
+    margin-top: 20px;
+    background-color: #f4f4f4;
+    border: none;
+    resize: none;
+}
+th,
+td {
+    vertical-align: top;
+}
+.form__button{
+    text-align: center;
+}
+.form__button-submit{
+    background-color: #9c8d80;
+    border: none;
+    color: white;
+    padding: 7px 30px;
+    border-radius: 2px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
